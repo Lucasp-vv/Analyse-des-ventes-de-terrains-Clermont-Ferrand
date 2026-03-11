@@ -445,10 +445,12 @@ function updateScatter(indices) {
     xaxis: {
       title: { text: `Surface (${CONFIG.uniteSurface})`, standoff: 10 },
       zeroline: false, gridcolor: "#eee",
+		range: [0,5000]
     },
     yaxis: {
       title: { text: `Prix (${CONFIG.unitePrix})`, standoff: 10 },
       zeroline: false, gridcolor: "#eee",
+		range: [0,700000]
     },
     paper_bgcolor: "white",
     plot_bgcolor: "#fafafa",
@@ -559,3 +561,4 @@ function showInfoBox(props) {
 </body>
 
 </html>
+
